@@ -24,7 +24,7 @@ const NavBar = () => {
             <Link class="nav-link" to="Actualites">Actualités</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">A propos</a>
+            <Link class="nav-link" to="Apropos">A Propos</Link>
             </li>
           </ul>
         </div>

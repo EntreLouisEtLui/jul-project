@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App.js';
 import Discographie from './views/Discographie.js';
 import Concerts from './views/Concerts.js';
-import Actu from './views/Actu.js'
+import Actu from './views/Actu.js';
+import Apropos from './views/About.js';
 
 import {
   BrowserRouter as Router,
@@ -23,6 +24,7 @@ const Root = () => {
           <Route exact path='/Discographie' component={Discographie} />
           <Route exact path='/Concerts' component={Concerts} />
           <Route exact path='/Actualites' component={Actu} />
+          <Route exact path='/Apropos' component={Apropos}/>
         </Switch>
       </Router>
   )
