@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App.js';
 import Discographie from './views/Discographie.js';
 import Concerts from './views/Concerts.js';
+import Actu from './views/Actu.js'
 
 import {
   BrowserRouter as Router,
@@ -21,6 +22,7 @@ const Root = () => {
           <Route exact path='/' component={App} />
           <Route exact path='/Discographie' component={Discographie} />
           <Route exact path='/Concerts' component={Concerts} />
+          <Route exact path='/Actualites' component={Actu} />
         </Switch>
       </Router>
   )
