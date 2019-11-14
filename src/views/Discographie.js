@@ -18,23 +18,23 @@ const Discographie = () => {
             <h2>Discographie</h2>
             <div class="container-fluid">
               <div class="row">
-                <div class="col m-3">
-                  <img width="180" alt="Rien100Rien" src={Rien100Rien}></img>
+                <div class="col-12 m-5 text-left">
+                  <img width="300" alt="Rien100Rien" src={Rien100Rien}></img>
                 </div>
-                <div class="col m-3">
-                <img width="180" alt="Rien100Rien" src={Albumgratuit}></img>
+                <div class="col-12 m-5 text-left">
+                <img width="300" alt="Rien100Rien" src={Albumgratuit}></img>
                 
                 </div>
-                <div class="col m-3">
-                <img width="180" alt="Rien100Rien" src={LaTeteDansLesNuages}></img>
+                <div class="col-12 m-5 text-left">
+                <img width="300" alt="Rien100Rien" src={LaTeteDansLesNuages}></img>
                 
                 </div>
-                <div class="col m-3">
-                <img width="180" alt="Rien100Rien" src={LaZoneEnPersonne}></img>
+                <div class="col-12 m-5 text-left">
+                <img width="300" alt="Rien100Rien" src={LaZoneEnPersonne}></img>
                 
                 </div>
-                <div class="col m-3">
-                <img width="180" alt="Rien100Rien" src={LOvni}></img>
+                <div class="col-12 m-5 text-left">
+                <img width="300" alt="Rien100Rien" src={LOvni}></img>
                 
                 </div>
               </div>
