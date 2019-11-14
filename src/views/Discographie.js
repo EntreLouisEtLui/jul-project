@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import NavBar from "../NavBar"
 
 
-const Page2 = () => {
+const Discographie = () => {
     return (
         <div className="App bg-dark">
 
@@ -12,4 +12,4 @@ const Page2 = () => {
     );
 };
 
-export default Page2;
+export default Discographie;

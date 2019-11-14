@@ -15,10 +15,10 @@ const NavBar = () => {
               <Link class="nav-link" to="">Accueil <span class="sr-only">(current)</span></Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="Page2">Discographie</Link>
+              <Link class="nav-link" to="Discographie">Discographie</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Concerts</a>
+            <Link class="nav-link" to="Concerts">Concerts</Link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Actualités</a>

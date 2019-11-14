@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-import Page2 from './views/Page2.js'
+import Discographie from './views/Discographie.js';
+import Concerts from './views/Concerts.js';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -17,7 +19,8 @@ const Root = () => {
       <Router>
         <Switch>
           <Route exact path='/' component={App} />
-          <Route exact path='/page2' component={Page2} />
+          <Route exact path='/Discographie' component={Discographie} />
+          <Route exact path='/Concerts' component={Concerts} />
         </Switch>
       </Router>
   )
